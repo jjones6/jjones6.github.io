@@ -1,0 +1,56 @@
+input[type=submit] {
+     background-color: blue;
+      font-family: 'Helvetica';
+      color: white;
+      border-radius: 5px;
+      
+}
+
+
+ input[type=text]{
+    color:  blue;
+    width: 70%;
+ }
+
+a:link {  
+    text-decoration: none;
+   
+       
+}
+nav ul li  {
+
+    text-decoration: none;
+    display:inline;
+    padding:10px 30px;
+    font-family: 'Helvetica';
+       font-size: 12px;
+       
+    
+  
+}
+
+.current {
+    border-bottom:3px solid blue;
+    padding-bottom: 10px;
+  text-decoration: none;
+ 
+}
+
+ h3{
+     font-family: 'Freckle Face', cursive;
+    
+ }
+ p{
+     font-family: 'Helvetica';
+     font-size: 12px;
+     
+ }
+ 
+Footer li{
+     text-decoration: none;
+    display:inline;
+    padding:10px 30px;
+  font-family: 'Helvetica';
+    font-size: 10px;
+}
+ 
