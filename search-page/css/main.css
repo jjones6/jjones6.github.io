@@ -1,56 +1,197 @@
-input[type=submit] {
-     background-color: blue;
-      font-family: 'Helvetica';
-      color: white;
-      border-radius: 5px;
-      
+*{
+    box-sizing: border-box;
 }
 
+.clearfix:after{
+    content: " ";
+    display:table;
+    clear:both;
+}
 
- input[type=text]{
-    color:  blue;
-    width: 70%;
- }
+header{
+    background-color:#eee;
 
-a:link {  
+    border-bottom: 2px solid #ddd;
+ 
+}
+
+body{
+    min-width: 800px;
+}
+
+.container{
+    width:95%;
+    max-width:1700px;
+}
+
+.resultstxt{
+    color: #aaa;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: Helvetica;
+    font-size: 75%;
+    margin: 30px;
+}
+
+.biotxt{
+    line-height: 150%;
+    font-family: Helvetica;
+    font-size: 75%;
+}
+
+.infotxt{
+    color: #aaa;
+    font-family: Helvetica;
+    font-size: 75%;
+    text-decoration:none;
+}
+
+.linktxt{
+    color: rgb(0, 102, 33);
+    font-family: Helvetica;
+    font-size: 75%;
+        line-height: 14px
+}
+
+#avatar{
+    float:right;
+    width: 150%;
+    min-width:50px;
+    max-width:50px;
+    border-radius: 50%
+}
+
+#twittericon{
+    min-width:15px;
+    max-width:15px;
+}
+
+#scotthall2{
+    min-width: 40%;
+    max-width: 44%;
+    min-height: 20%;
+    max-height: 20%;
+}
+
+#scotthall3{
+    min-width: 40%;
+    max-width: 53%;
+    min-height: 20%;
+    max-height: 20%;
+}
+
+#brand img, #brand form, #logo{
+    display:inline;
+}
+
+#logo{
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+    float:left;
+    width: 15%;
+    min-width: 120px;
+    max-width: 120px;
+}
+
+input[type="submit"]{
+    background: url(https://s3.amazonaws.com/pratt-web-2/google_mag_glass.png) no-repeat 12px;
+    background-color: #4285f4;
+    background-size: 18px;
+    border: none;
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+}
+
+input[type=text]{
+    width: 500px;
+    height: 40px;
+    float:left;
+    font-size: 120%;
+}
+
+ol{
+    list-style-type:none;
+    max-width: 60%;
+    margin-left: 20px
+}
+ 
+nav a:link {  
     text-decoration: none;
-   
-       
+    color: rgb(66, 133, 244);
 }
+   
 nav ul li  {
-
     text-decoration: none;
     display:inline;
-    padding:10px 30px;
+    padding:10px 40px;
     font-family: 'Helvetica';
-       font-size: 12px;
-       
-    
-  
+    font-size: 12px;
+    margin-left: -30px
+}
+
+nav ul li a:hover{
+    color:gray;
+}
+
+main a:link{
+    text-decoration: none;
+    color: rgb(66, 133, 244);
+}
+
+main ol{
+    line-height: 17px
 }
 
 .current {
-    border-bottom:3px solid blue;
-    padding-bottom: 10px;
-  text-decoration: none;
- 
+    border-bottom:3px solid rgb(66, 133, 244);
+    text-decoration: none;
 }
 
- h3{
-     font-family: 'Freckle Face', cursive;
-    
- }
- p{
-     font-family: 'Helvetica';
-     font-size: 12px;
-     
- }
- 
-Footer li{
-     text-decoration: none;
-    display:inline;
-    padding:10px 30px;
-  font-family: 'Helvetica';
-    font-size: 10px;
+h3{
+    font-family: 'Freckle Face', cursive;
+}
+
+h1{
+    font-family: 'Freckle Face', cursive;
+}
+
+p{
+    font-family: 'Helvetica';
+    font-size: 12px;
 }
  
+aside{
+    float:right;
+    margin-left: 4px;
+    min-width: 20%;
+    max-width: 30%;
+    min-height: 20%;
+    max-height: 200%;
+    padding:10px;
+    box-shadow: 2px 2px 4px #aaa;
+}
+
+footer{
+    background-color:#eee;
+    padding: 10px
+}
+
+footer ul li {
+    text-decoration:none;
+    display:inline;
+    padding:10px 30px;
+    font-family: 'Helvetica';
+    font-size: 10px;
+    color: #bbb;
+}
+
+footer a:link{
+    text-decoration: none;
+    color:#444;
+}
+
+footer ul li a:hover{
+    color:gray;
+}
