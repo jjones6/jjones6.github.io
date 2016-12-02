@@ -1,0 +1,346 @@
+* {
+    box-sizing: border-box;
+}
+
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+#confirmed {
+    /*display: none;*/
+}
+
+body {
+    background-color: #6d4925;
+    margin: 0;
+    min-width: 1200px;
+    max-width: 2000px;
+}
+
+nav {
+    background-image: url("../images/nav_bar.png");
+    position: fixed;
+    width: 400%;
+    height: 100px;
+    z-index: 1;
+    background-repeat: repeat;
+    text-decoration: none;
+}
+
+
+nav img {
+    min-width: 15%;
+    max-width: 20%;
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+nav a img {
+    width: 25%;
+    max-width: 25%;
+}
+
+#go_to_note {
+    float: left;
+    width: 25%;
+    max-width: 25%;
+    padding-left: 300px;
+}
+
+.confirmed-img img {
+    width: 25%;
+}
+
+#main-page-1 {
+    background-image: url("../images/iron_magi_bg_1.png");
+    background-size: 110%;
+    height: 840px;
+    width: 2000px;
+    min-height: 100%;
+    text-align: center;
+    min-width: 100%;
+    max-width: 100%;
+    font-family: 'CaslonOSRegular';
+    color: #caac88;
+    padding-top: 150px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 300%;
+}
+
+#main-page-1 h4 {
+    padding-top: 500px;
+    line-height: 120%;
+    font-size: 65%;
+    text-align: center;
+    width: 1200px;
+    min-width: 75%;
+    /*max-width: 100%;*/
+    /*margin-left: 300px;*/
+    /*padding: 150px;*/
+}
+
+#weapon-selector img {
+    height: 300px;
+    min-height: 70%;
+}
+
+#weapon-selector {
+    padding-bottom: 400px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+    max-width: 300px;
+    float: left;
+    padding-bottom: 400px;
+    min-height: 300px;
+    padding-left: 200px;
+}
+
+#spell-selector img {
+    height: 300px;
+    min-height: 70%;
+}
+
+#spell-selector {
+    height: 300px;
+    min-height: 300px;
+    margin: auto;
+    min-height: 70%;
+    width: 300px;
+    max-width: 300px;
+    float: right;
+    padding-bottom: 400px;
+    padding-right: 500px;
+}
+
+.iron_magi_logo {
+    float: left;
+}
+
+.iron_magi_logo_2 {
+    float: left;
+    padding-left: 300px;
+}
+
+.section-2 {
+    background-image: url("../images/iron_magi_bg_2.png");
+    background-size: 95%;
+    height: 1000px;
+    width: 100%;
+    max-height: 100%;
+    min-height: 1000px;
+    min-width: 100%;
+    max-width: 100%;
+    font-family: 'CaslonOSRegular';
+    color: #caac88;
+    padding: 50px;
+    /*text-shadow: 2px 2px 5px black;*/
+}
+
+.action-section {
+    width: 100%;
+    float: left;
+}
+
+.sample_ipad {
+    float: right;
+
+    height: 40%;
+    max-width: 37%;
+    min-width: 35%;
+    padding: 50px;
+    padding-left: 100px;
+    padding-top: 100px;
+}
+
+.sample_ipad img {
+    width: 95%;
+    /*min-width: 85%;*/
+    /*height: 100%;*/
+    /*min-height: 100%;*/
+}
+
+.icon-container {
+    float: left;
+    width: 125px;
+    min-width: 25%;
+    height: 250px;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+.icon-container img {
+    height: 30%;
+    padding-left: 30px;
+}
+
+.icon-container h4 {
+
+    width: 200px;
+    height: 60px;
+    line-height: 150%;
+    padding: 10px;
+    font-size: 75%
+}
+
+.ipad_container img {
+    width: 80%;
+}
+
+.left-action-container {
+    max-width: 60%;
+    float: left;
+    padding-top: 100px;
+}
+
+.left-action-container h3 {
+    font-size: 140%;
+    line-height: 40px;
+    min-width: 650px;
+    max-width: 1000px;
+    padding-left: 50px;
+}
+
+.logo-container img {
+    max-width: 95%;
+    min-width: 25%;
+    padding-left: 50px;
+}
+
+.left-action-container p {
+    line-height: 40px
+}
+
+
+.step-section {
+    background-color: #6d4925;
+    height: 600px;
+    width: 100%;
+    padding: 40px;
+    padding-top: 0px;
+    max-height: 100%;
+    min-width: 50%;
+    min-height: 50%;
+    max-width: 100%;
+    font-family: 'CaslonOSRegular';
+    color: #caac88;
+    text-align: center;
+    line-height: 90px;
+    /*text-shadow: 2px 2px 5px black;*/
+}
+
+.step-section h2 {
+    font-size: 450%;
+    line-height: 100px;
+}
+
+.step-section h6 {
+    font-size: 120%;
+    line-height: 170%;
+    /*width:1000px;*/
+}
+
+#section-6 {
+    background-image: url("../images/iron_magi_bg_4.png");
+    background-size: 95%;
+    height: 1250px;
+    min-width: 25%;
+    min-height: 25%;
+    max-width: 100%;
+    font-family: 'CaslonOSRegular';
+    color: #caac88;
+    padding: 60px;
+    text-align: center;
+    list-style-type: none;
+}
+
+.game_txt_container {
+    text-align: center;
+    width: 30%;
+    padding: 0 20px 0 20px;
+    /*min-height: 40%;*/
+    line-height: 140%;
+    font-size: 75%;
+    float: left;
+    padding: 30px;
+    padding-top: 50px;
+    min-width: 15%;
+}
+
+.ipad_container {
+    text-align: center;
+    width: 33.3%;
+    min-width: 33.3%;
+    padding: 0 20px 0 20px;
+    /*min-height: 40%;*/
+    line-height: 20px;
+    float: left;
+}
+
+.game_txt_container img {
+    width: 150px;
+}
+
+#section-7 {
+    padding: 20px;
+    padding-top: 100px;
+    background-color: #1c150d;
+    min-height: 400px;
+    min-width: 100%;
+    font-family: 'CaslonOSRegular';
+    font-size: 25pt;
+    text-align: center;
+    color: #caac88;
+    line-height: 2px
+}
+
+#section-7 h2 {
+    padding: 100px;
+}
+
+input[type="submit"] {
+    background-color: transparent;
+    background-size: 18px;
+    border: none;
+    font-family: 'CaslonOSRegular';
+    color: #caac88;
+    font-size: 24px;
+    height: 100px;
+    width: 200px;
+    padding: 20px;
+}
+
+input[type=text] {
+    width: 500px;
+    height: 40px;
+    border-color: transparent;
+    border-bottom: 3px solid #caac88;
+    background-color: transparent;
+    padding: 20px;
+    font-family: 'CaslonOSRegular';
+    color: #caac88;
+    font-size: 24px
+}
+
+.fine_txt {
+    font-family: 'CaslonOSRegular';
+    font-size: 20px;
+    line-height: 30px;
+    width: 800px;
+}
+
+.title_txt {
+    font-size: 60px;
+    font-style: oblique;
+}
+
+section {
+    display: block;
+}
+
+h2 {
+    height: 60px;
+}
